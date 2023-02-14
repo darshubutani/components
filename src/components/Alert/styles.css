@@ -1,0 +1,129 @@
+.container {
+    gap: 10px;
+  }
+  
+  .alert {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    height: auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    line-height: 25px;
+    margin: 15px auto 15px;
+  }
+  
+  .alert svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    padding: 0%;
+  }
+  
+  .icon-white svg {
+    stroke: rgb(255 255 255)
+  }
+  
+  .closeIcon {
+    margin-left: auto;
+    height:18px;
+    width:18px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  .closeIcon svg{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .closeIcon:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  
+  /* Default */
+  .alert.default.success {
+    background-color: rgb(237, 247, 237);
+    color: rgb(30, 70, 32);
+  }
+  
+  .alert.default.error {
+    background-color: #fdeded;
+    color: #5f2120;
+  }
+  
+  .alert.default.warning {
+    background-color: #fff4e5;
+    color: rgb(102, 60, 0);
+  }
+  
+  .alert.default.info {
+    background-color: rgb(229, 246, 253);
+    color: rgb(1, 67, 97);
+  }
+  
+  /* Outlined */
+  .alert.outlined {
+    border: 2px solid gray;
+    color: black;
+    background-color: white;
+  }
+  
+  .alert.outlined.success {
+    border: 2px solid #2e7d32;
+    color: rgb(30, 70, 32);
+    background-color: white;
+  }
+  
+  .alert.outlined.error {
+    border: 2px solid #d74444;
+    color: #5f2120;
+    background-color: white;
+  }
+  
+  .alert.outlined.warning {
+    border: 2px solid rgb(237, 108, 2);
+    color: rgb(102, 60, 0);
+    background-color: white;
+  }
+  
+  .alert.outlined.info {
+    border: 2px solid #03a9f4;
+    color: rgb(1, 67, 97);
+    background-color: white;
+  }
+  
+  /* Filled */
+  .alert.filled {
+    background-color: black;
+    color: white;
+  }
+  
+  .alert.filled.success {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .alert.filled.error {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  .alert.filled.warning {
+    background-color: #ed6c02;
+    color: white;
+  }
+  
+  .alert.filled.info {
+    background-color: #0288d1;
+    color: white;
+  }
